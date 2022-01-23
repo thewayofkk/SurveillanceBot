@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Surveillance Robot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<img src="http://192.168.0.64:8081/" style="float:left; width:100%; max-width: 700px; max-height:600px; border-radius:10px"></img>
+<h2>Web Controlled Surveillance Robot</h2>
+<form action="/1" method="POST">
+<button id="FWD" class="robot">LEFT</button>
+</br>
+</form>
+                 
+<form action="/2" method="POST">
+<button id="LFT" class="robot">FORWARD</button>
+</br>
+</form>
+                         
+<form action="/3" method="POST">
+<button id="RGT" class="robot">RIGHT</button>
+</br>
+</form>
+
+<form action="/5" method="POST">
+<button id="STP" class="robot">STOP</button>
+</br>
+</form>
+                          
+<form action="/4" method="POST">
+<button id="REV" class="robot">REVERSE</button>
+</br>
+</form>
+      
+</body>
+</html>
